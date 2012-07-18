@@ -141,8 +141,8 @@
 				}
 		
 			?>
-			<!--<div><img src='<?php bloginfo("template_url") ?>/img/banner1/header.jpg' /></div>
-			<div><img src='<?php bloginfo("template_url") ?>/img/banner1/slide-7_657_300.png' /></div>-->
+			<!--<div><img src='<?php // bloginfo("template_url") ?>/img/banner1/header.jpg' /></div>
+			<div><img src='<?php //bloginfo("template_url") ?>/img/banner1/slide-7_657_300.png' /></div>-->
         </div>
         <ul class="btn">
         	<?php
