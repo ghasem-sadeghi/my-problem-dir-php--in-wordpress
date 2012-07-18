@@ -115,7 +115,7 @@
     	<div class="scroll">
 			<?php
 			
-				/*$dir = 'bloginfo("template_url")/img/banner1';
+				$dir = 'bloginfo("template_url")/img/banner1';
 				$allowed_type = array('jpg','jpeg','png','gif');
 				
 				
@@ -138,18 +138,18 @@
 					$pics_len ++;
 					echo "<div>$desc_html<img src='$dir/$f' /></div>";
 					
-				}*/
+				}
 		
 			?>
-			<div><img src='<?php bloginfo("template_url") ?>/img/banner1/header.jpg' /></div>
-			<div><img src='<?php bloginfo("template_url") ?>/img/banner1/slide-7_657_300.png' /></div>
+			<!--<div><img src='<?php bloginfo("template_url") ?>/img/banner1/header.jpg' /></div>
+			<div><img src='<?php bloginfo("template_url") ?>/img/banner1/slide-7_657_300.png' /></div>-->
         </div>
         <ul class="btn">
         	<?php
-				//for($i=0;$i<$pics_len;$i++) echo '<li></li>';
+				for($i=0;$i<$pics_len;$i++) echo '<li></li>';
 			?>
-			<li></li>
-			<li></li>
+			<!--<li></li>
+			<li></li>-->
         </ul>
         
     </div>
